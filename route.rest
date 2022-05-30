@@ -1,2 +1,29 @@
 GET http://localhost:3000/subscribers
 
+### Get One
+
+GET http://localhost:3000/subscribers/6295120c97263098a220178d
+
+### Create new
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "MEV Tut"
+}
+
+### Delete
+
+DELETE http://localhost:3000/subscribers/6295120c97263098a220178d
+
+### Update
+
+PATCH http://localhost:3000/subscribers/629513f86ddc6b0c6595fa22
+Content-Type: application/json
+
+{
+    "name": "New Name Guy",
+    "subscribedToChannel": "Brad's MEV Tutorial"
+}
