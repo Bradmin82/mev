@@ -24,6 +24,6 @@ PATCH http://localhost:3000/subscribers/629513f86ddc6b0c6595fa22
 Content-Type: application/json
 
 {
-    "name": "New Name Guy",
+    "name": "New Name for this Guy",
     "subscribedToChannel": "Brad's MEV Tutorial"
 }
